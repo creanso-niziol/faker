@@ -1,0 +1,41 @@
+{
+    "name": "creanso-niziol/faker",
+    "description": "Faker is a PHP library that generates fake data for you.",
+    "keywords": [
+        "faker",
+        "fixtures",
+        "data"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "François Zaninotto"
+        }
+    ],
+    "require": {
+        "php": "^5.3.3 || ^7.0 || ^8.0"
+    },
+    "require-dev": {
+        "ext-intl": "*",
+        "phpunit/phpunit": "^9.5.20",
+        "squizlabs/php_codesniffer": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Faker\\": "src/Faker/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Faker\\Test\\": "test/Faker/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.9-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
